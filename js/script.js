@@ -1,12 +1,17 @@
-const innercontent = document.querySelector('#book')
-const add = document.querySelector('.add')
-const books = document.querySelector('ul')
-const btn = () => {
-    if (innercontent.value != "") {
+function btn() {
+    var lists = document.getElementById("list");
+    var book = document.getElementById("book");
+    var li = document.createElement("li");
 
-        const lists = document.createElement('li');
-        lists.innerText = innercontent.value;
-        books.appendChild(lists);
+    li.setAttribute('id', book.value);
+    li.appendChild(document.createTextNode(book.value));
+    lists.appendChild(li);
 
-    }
+}
+
+function del() {
+    var listss = document.getElementById("list");
+    var book = document.getElementById("book");
+    var deleteitem = document.getElementById(book.value);
+    listss.removeChild(deleteitem);
 }

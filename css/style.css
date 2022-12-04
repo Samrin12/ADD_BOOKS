@@ -3,14 +3,84 @@
     padding: 0;
 }
 
-.books {}
-
-.books ul {
-    list-style: none;
+.all {
+    padding-top: 170px;
 }
 
-.books ul li {}
+.addbook {
+    background-image: url(../images/im1.png);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.liists {
+    list-style: none;
+    width: 60%;
+}
+
+.liists li {
+    border: 1px solid grey;
+    border-radius: 9px;
+    padding: 5px 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background: #63303099;
+    color: #fff;
+    width: max-content;
+
+}
+
+.main {
+    width: 86%;
+    background: #63303045;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
 
 .form {
-    margin-top: 100px;
+    margin-bottom: 21px;
+}
+
+.book {
+    background: transparent;
+    border: 1px solid #63303099;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    width: 100%;
+}
+
+.buttons {
+    text-align: left;
+}
+
+h1 {
+    color: #633030f0;
+}
+
+label {
+    color: #633030f0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.add {
+    background: #63303099;
+    border: 1px solid #63303099;
+    padding: 3px 17px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.dell {
+    background: #63303099;
+    border: 1px solid #63303099;
+    padding: 3px 17px;
+    border-radius: 30px;
+    margin-left: 10px;
+    color: #fff;
 }
